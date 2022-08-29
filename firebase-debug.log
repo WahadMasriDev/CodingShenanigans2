@@ -1,0 +1,67 @@
+[debug] [2022-08-29T07:33:45.103Z] ----------------------------------------------------------------------
+[debug] [2022-08-29T07:33:45.105Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nezar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-08-29T07:33:45.105Z] CLI Version:   11.8.0
+[debug] [2022-08-29T07:33:45.105Z] Platform:      win32
+[debug] [2022-08-29T07:33:45.105Z] Node Version:  v16.16.0
+[debug] [2022-08-29T07:33:45.106Z] Time:          Mon Aug 29 2022 10:33:45 GMT+0300 (Arabian Standard Time)
+[debug] [2022-08-29T07:33:45.106Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-29T07:33:45.168Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-29T07:33:45.169Z] > authorizing via signed-in user (nezarmoustapha2003@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\nezar\superchat
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-29T07:33:47.668Z] Using project from CLI flag: a-new-lifestyle
+[debug] [2022-08-29T07:33:47.672Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/a-new-lifestyle [none]
+[debug] [2022-08-29T07:33:48.441Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/a-new-lifestyle 200
+[debug] [2022-08-29T07:33:48.442Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/a-new-lifestyle {"projectId":"a-new-lifestyle","projectNumber":"592977675771","displayName":"testingProjects","name":"projects/a-new-lifestyle","resources":{"hostingSite":"a-new-lifestyle","storageBucket":"a-new-lifestyle.appspot.com","locationId":"europe-west"},"state":"ACTIVE","etag":"1_d793ee0b-0c2e-4ee3-b7f5-4ecde3c91b90"}
+[info] i  Using project a-new-lifestyle (testingProjects) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] i  Skipping write of build/404.html 
+[debug] [2022-08-29T07:34:07.768Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-08-29T07:34:08.191Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-08-29T07:34:08.192Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.3","browserURL":"https://www.gstatic.com/firebasejs/9.9.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.3/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.3/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.3/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.3/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.3/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.3/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.3/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.3/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.3/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.3/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\nezar\superchat is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=278976357&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-29T07:34:10.925Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-08-29T07:34:10.925Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-08-29T07:34:11.724Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-08-29T07:34:11.724Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-08-29T07:34:11.731Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-08-29T07:34:12.382Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-08-29T07:34:12.383Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"WahadMasriDev","id":90535869,"node_id":"MDQ6VXNlcjkwNTM1ODY5","avatar_url":"https://avatars.githubusercontent.com/u/90535869?v=4","gravatar_id":"","url":"https://api.github.com/users/WahadMasriDev","html_url":"https://github.com/WahadMasriDev","followers_url":"https://api.github.com/users/WahadMasriDev/followers","following_url":"https://api.github.com/users/WahadMasriDev/following{/other_user}","gists_url":"https://api.github.com/users/WahadMasriDev/gists{/gist_id}","starred_url":"https://api.github.com/users/WahadMasriDev/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/WahadMasriDev/subscriptions","organizations_url":"https://api.github.com/users/WahadMasriDev/orgs","repos_url":"https://api.github.com/users/WahadMasriDev/repos","events_url":"https://api.github.com/users/WahadMasriDev/events{/privacy}","received_events_url":"https://api.github.com/users/WahadMasriDev/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":1,"public_gists":0,"followers":0,"following":0,"created_at":"2021-09-12T00:54:32Z","updated_at":"2022-08-28T17:39:23Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":339,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as WahadMasriDev 
+[info] 
